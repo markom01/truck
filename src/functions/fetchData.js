@@ -10,7 +10,7 @@ export default async function fetchData({
   } else {
     setIsRefetching(true);
   }
-  const url = new URL("/markom01/trucks/posts", "https://mockend.com");
+  const url = new URL("/markom01/truck/posts", "https://mockend.com");
 
   // iterate through params object and append to url
   Object.keys(params).forEach((key) => {
