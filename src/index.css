@@ -1,0 +1,14 @@
+@import "@fontsource/roboto/300.css";
+@import "@fontsource/roboto/400.css";
+@import "@fontsource/roboto/500.css";
+@import "@fontsource/roboto/700.css";
+
+body {
+  margin: 0;
+  font-family: Roboto, system-ui;
+}
+
+.gm-fullscreen-control {
+  margin-block: 0 !important;
+  top: 90px !important;
+}

@@ -1,0 +1,32 @@
+{
+  "Post": {
+    "_": {
+      "items": 50
+    },
+    "date": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
+    },
+    "driver": {
+      "loremWords": { "minLength": 5, "maxLength": 10 }
+    },
+    "coDriver": {
+      "loremWords": { "minLength": 5, "maxLength": 10 }
+    },
+    "vehicleNum": { "int": { "min": 1000, "max": 9999 } },
+    "vehicleLabel": { "int": { "min": 10000000, "max": 99999999 } },
+    "speed": {
+      "int": { "min": 0, "max": 100 }
+    },
+    "lat": { "int": { "min": 40, "max": 50 } },
+    "lng": { "int": { "min": 80, "max": 100 } },
+    "shippingDocs": {
+      "int": { "min": 0, "max": 1000000 }
+    },
+    "dvir": {
+      "boolean": {}
+    }
+  }
+}
